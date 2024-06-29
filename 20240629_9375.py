@@ -1,6 +1,7 @@
 # 9375: 패션왕 신해빈
 # 특이사항: 다국어(영어)(한국어 번역)
 # 출처: ICPC Northwestern European Regional Contest BAPC 2013 I번
+# (BAPC: Benelux Algorithm Programming Contest)
 # 알고리즘 분류: 수학/자료 구조/조합론/해시를 사용한 집합과 맵
 
 # 1. 테스트 케이스의 개수 입력(최대 100)
