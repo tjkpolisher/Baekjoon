@@ -1,6 +1,7 @@
 # 2805: 나무 자르기
 # 특이사항: 다국어(영어)(한국어 번역)
 # 출처: Croatian Open Competition in Informatics(COCI) 2011/2012 Contest #5 2번
+# 알고리즘 분류: 이분 탐색/매개 변수 탐색
 
 # 1. 나무의 수 N, 상근이가 집으로 가져가려고 하는 나무의 길이 M 입력
 # [보충설명] 1 ≤ N ≤ 1,000,000, 1 ≤ M ≤ 2,000,000,000
@@ -13,7 +14,7 @@ import sys
 input = sys.stdin.readline
 
 N, M = map(int, input().split())
-heights = list(map(int, input().rstrip().split()))  # 이 부분을 collections의 Counter로 바꾸면 속도 상승 가능
+heights = list(map(int, input().rstrip().split()))  # list를 collections의 Counter로 바꾸면 속도 상승 가능
 
 start = 0
 end = max(heights)
